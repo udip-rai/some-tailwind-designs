@@ -1,0 +1,1 @@
+export { default as github_img } from "./github1.png"

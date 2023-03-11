@@ -1,0 +1,1 @@
+export { default as tailwind_svg } from "./tailwind-css-icon.svg"
