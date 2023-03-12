@@ -1,4 +1,3 @@
-import { Chart } from "chart.js";
 import React from "react";
 import {
   OrderChart,
@@ -9,7 +8,7 @@ import {
 
 export const OrderManagementPage = () => {
   return (
-    <div className="w-full h-full flex flex-row bg-slate-100">
+    <div className="w-full h-full flex flex-row bg-slate-300">
       <div className="flex w-[220px] bg-red-400 justify-center items-center">
         Static Sidebar
       </div>
