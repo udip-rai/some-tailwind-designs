@@ -5,11 +5,12 @@ import {
   OrderFilterCard,
   OrderThumbnailFoodCard,
 } from "components/order-management";
+import { chicken_momo_img } from "assets/images";
 
 export const OrderManagementPage = () => {
   return (
-    <div className="w-full h-full flex flex-row bg-slate-300">
-      <div className="flex w-[220px] bg-red-400 justify-center items-center">
+    <div className="w-full h-[calc(100vh-140px)] flex flex-row bg-slate-300">
+      <div className="flex min-w-[180px] bg-red-400 justify-center items-center">
         Static Sidebar
       </div>
       <div className="flex flex-1 w-full">
@@ -35,27 +36,86 @@ export const OrderManagementPage = () => {
             />
             <OrderFilterCard />
           </div>
-          <div className="flex flex-1 flex-col bg-white rounded-md">
+          <div className="flex flex-1 flex-col bg-white rounded-lg">
             <div className="mx-4 px-3 my-5 border-b-2 border-slate-400 flex h-[40px] text-sm">
               Frequently Ordered Dish
             </div>
             <div className="flex w-full max-h-[300px] flex-1 flex-col overflow-y-scroll scrollbar">
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
-              <OrderThumbnailFoodCard />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
+              <OrderThumbnailFoodCard
+                img={chicken_momo_img}
+                title="Chicken Momo"
+                msg="188 times"
+              />
             </div>
           </div>
         </div>

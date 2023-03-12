@@ -7,3 +7,4 @@
 - git commit -m "03 - Finished Order Management Design"
 - git commit -m "04 - Tailwind-ease settings"
 - git commit -m "05 - Replaced CDN with tailwind package config"
+- git commit -m "06 - Worked on second design"

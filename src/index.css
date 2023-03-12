@@ -29,3 +29,42 @@ body {
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
+.scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 2rem;
+  background: #e3dbe7;
+}
+
+.scrollbar1::-webkit-scrollbar-track {
+  margin-bottom: 100px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #6d64e4;
+  border-radius: 100vh;
+  border: 3px solid #6d64e4;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #621297;
+}
+
+.scrollbar::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  color: black;
+}
+
+.active-border {
+  border-color: #5541d8;
+  font-weight: 500;
+  color: black;
+}
