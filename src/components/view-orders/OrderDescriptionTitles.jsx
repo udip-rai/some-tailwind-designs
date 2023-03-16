@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { OrderTab } from ".";
 
-export const OrderDescriptionTitles = () => {
+export const OrderDescriptionTitles = ({ items }) => {
   const [active, setActive] = useState("");
   const isSelected = useRef(false);
 
@@ -14,11 +14,10 @@ export const OrderDescriptionTitles = () => {
       <OrderTab {...tabProps} />
       <OrderTab {...tabProps} />
       <OrderTab {...tabProps} /> */}
-      <OrderTab item="item1" title="All Orders" />
-      <OrderTab item="item2" title="New" />
-      <OrderTab item="item3" title="Active" />
-      <OrderTab item="item4" title="Completed" />
-      <OrderTab item="item5" title="Cancelled" />
+
+      {items?.map((item, i) => (
+        <OrderTab key={item + i} title={item} />
+      ))}
     </div>
   );
 };

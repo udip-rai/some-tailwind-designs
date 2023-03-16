@@ -8,28 +8,35 @@ import { OrderButton } from "components/buttons";
 import React from "react";
 import { AiOutlineClockCircle } from "react-icons/ai";
 
-export const OrderTableCard = () => {
+export const OrderTableCard = ({ item }) => {
+  item = [
+    {
+      images: [""],
+      tableNo: "",
+      action: "",
+    },
+  ];
   return (
     <div className="bg-white border-2 border-slate-300 rounded-lg flex flex-col gap-4 shadow-xl">
       <div className="flex h-[130px]">
         <div className="grid grid-cols-2 p-2">
           <img
-            className="min-h-[65px] rounded-tl-lg"
+            className="min-h-[68px] rounded-tl-lg"
             src={chicken_momo_img}
             alt="Chicken momo"
           />
           <img
-            className="min-h-[65px] rounded-tr-lg"
+            className="min-h-[68px] rounded-tr-lg"
             src={burger_img}
             alt="Burger"
           />
           <img
-            className="min-h-[65px] rounded-bl-lg"
+            className="min-h-[68px] rounded-bl-lg"
             src={sandwich_img}
             alt="Sandwich"
           />
           <img
-            className="min-h-[65px] rounded-br-lg"
+            className="min-h-[68px] rounded-br-lg"
             src={pizza_img}
             alt="Pizza"
           />

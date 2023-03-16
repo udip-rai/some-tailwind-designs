@@ -1,0 +1,52 @@
+[
+  {
+    "new": {
+      "title": "New",
+      "alias": "New Order",
+      "tables": {
+        "1": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        },
+        "3": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        },
+        "5": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        }
+      }
+    },
+    "active": {
+      "title": "Active",
+      "alias": "In Progress",
+      "tables": {
+        "2": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        },
+        "4": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        },
+        "6": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        }
+      }
+    },
+    "completed": {
+      "title": "Completed",
+      "alias": "Prepared",
+      "tables": {
+        "9": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        }
+      }
+    },
+    "cancelled": {
+      "title": "Cancelled",
+      "alias": "Cancelled",
+      "tables": {
+        "10": {
+          "food": ["momo", "burger", "pizza", "sandwich"]
+        }
+      }
+    }
+  }
+]
